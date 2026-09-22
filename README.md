@@ -24,8 +24,8 @@
 
 **Carbon Dioxide** : true sensing of the Co2 thats  in the air we breath
 ---
-**And Our-Air has a desktop app made to analyse the data both live and in a sqlite db format with advanced environment researching tools such as SQL query code field and professional graphs with a sleek 
-design**
+And Our-Air has a **Desktop App** made to analyze the data both live and in a **sqlite db** format with **advanced environment researching tools** such as SQL query code field and professional graphs with a sleek 
+design
 ---
 **But still thats not whats unique about Our-Air what unique about it is :**
 
