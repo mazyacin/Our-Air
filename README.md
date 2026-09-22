@@ -10,7 +10,7 @@
 
 **هذا المشروع مفتوح المصدر تحت رخصة GNU  و هذه الجيت هاب ريبو نسخة احتياطية في حالة تلف ملفات المسابقة المرفقة** 
 
-**Our-Air** is a complete environmental scanning network that with the **flagship best in the world**sensors:
+**Our-Air** is a complete environmental scanning network that with the **flagship best in the world** sensors:
 
 **Nitrogen Oxides(NOX)** : a group of very important gases because they are the same gases that cars and Factories emit 
 
@@ -29,6 +29,8 @@ design**
 ---
 **But still thats not whats unique about Our-Air what unique about it is :**
 
-that its fully open source and made in a way where its community driven where any one can make a sensor node , and because the system is **very optimized**
+-1 that its fully open source and made in a way where its community driven where any one can make a sensor node , and because the system is **very optimized**
 and **dynamic** it will detect the new node and adopt it to its **Network** of nodes
 
+-2 the sensors all have 2 common reading and those are the humidity and temperature, and this lets us compare sensor data to detect faulty sensors 
+ 
