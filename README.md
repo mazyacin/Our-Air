@@ -30,5 +30,5 @@ design**
 **But still thats not whats unique about Our-Air what unique about it is :**
 
 that its fully open source and made in a way where its community driven where any one can make a sensor node , and because the system is **very optimized**
-and **dynamic**
+and **dynamic** it will detect the new node and adopt it to its **Network** of nodes
 
