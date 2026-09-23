@@ -22,7 +22,8 @@
 
 **Barometric Pressure** : it tells us the weight of the atmosphere, can be used to predict storms ,rain
 
-**Carbon Dioxide** : true sensing of the Co2 thats  in the air we breath
+**Carbon Dioxide** : true sensing of the Co2 that`s  in the air we breath
+
 ---
 
 And Our-Air has a **Desktop App** made to analyze the data both live and in a **sqlite db** format with **advanced environment researching tools** such as SQL query code field and professional graphs with a sleek 
