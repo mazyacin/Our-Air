@@ -72,7 +72,9 @@ bracelet with a button to notify the nearby receiver when that the person wearin
  # Sensors: 
  
  **Bme690 By Bosch** : The bme690 is Bosch latest environment sensor , and is the worlds best general environmental sensor , it is set to Spi Mode 
+ 
  **SGP41 By Senisiron** : one of Senisiron`s latest Sensors whats special about it is its NOX sensing
+ 
  **SCD41 By Senisiron** : one of the Only sensors in the World , that can truly sense CO2 in the Air
 
   # Ic`s
