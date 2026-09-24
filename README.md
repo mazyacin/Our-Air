@@ -63,8 +63,11 @@ bracelet with a button to notify the nearby receiver when that the person wearin
 **The Pcb :** 
 <img width="1153" height="790" alt="image" src="https://github.com/user-attachments/assets/ef8af99f-2008-4cb0-a368-d47398fc7353" />
 
-#Technical details :
- **Microcontroller** : Esp32 C3 U1 N4 , Risc-V 160Mhz , 4MB of flash memory 
+# Technical details :
+
+
+ # Microcontroller : Esp32 C3 U1 N4 , Risc-V 160Mhz , 4MB of flash memory 
+
  
  # Sensors: 
  
