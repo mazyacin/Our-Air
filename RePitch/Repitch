@@ -1,1 +1,51 @@
+Name : Our-Air (RePitched)
 
+I`m designing : a enviroment monitering network that uses high end 
+sensors: bme690 sgp41 scd41
+the project is split into 3 parts 
+Part 1:Node:  Pcb its a 4 layer pcb with teardrops and thermal decepation  and planes, the Mcu is a esp32 c3 u1 n4 with an external antenna IPX connect around 5-6 edbi ,charger ic is ip2312 set to 3A charging(practicly 2.92A) charging 2 18650s in a p configuration
+, buck and boost ic tps63802DLAT  it has a VIN of 1.2v to 5.5v and Vout of 3.3V to be able to  turn the 18650 3.7v to 3.3v and the usb 5v to 3.3v its around 80% effecincy and Sensors are the Bme690 bosch latest environmet sensor for its 
+accuracy and Sgp41 by senisiron for NOX meassurements and Scd41 by senisiron for True c02 sensing, Cad Casing it is a simple case with many holes and great breathability
+the closing mechanism is a snap fit that actualy holdes  the wall thickness is 3mm which holdes well and the snap fit plastic tip is 2mm, Software , it has a deep sleep of 15min then it wakes up to init the sensors then goes to light sleep
+for 20s to give the sensors time to sense ,then  reads the ddata puts it in a JSON packet then sends with espnow set to Long Range Broadcast Mode , power consumption is an average of around 150uA (flashing code is with a ch340k programmer in the pcb also used for debugging)
+Part 2:Master : Pcb its a 4 layer pcb with teardrops and thermal decepation  and planes the Mcu is a esp32 c3 u1 n4 with an external antenna IPX connecter around 5-6 edbi ,charger ic is ip2312 set to 3A charging(practicly 2.92A) 
+charging 2 backup 18650s in a p configuration, buck and boost ic tps63802DLAT  it has a VIN of 1.2v to 5.5v and Vout of 3.3V to be able to  turn the 18650 3.7v to 3.3v and the usb 5v to 3.3v its around 95% effecincy
+and RTC ic Ds3231SN for timestamps  and Sd card port set to Spi to make the EAV sqlite db and write data,cad case its vary similar to the node one same closing mechanism same wall thickness just its just a little bigger 
+with more ports and less breathability  which isnt needed, Software the master is also set to reciever long range broadcast mode and uses a smart queue system to avoid blockage when writing to Database sqlite, it reads the packet
+deserializes it reads timestamp from RTC ic and  macaddress and location from packet then prepares a full packet  and sends it to queue and another function writes the fullpacket in a EAV structure sqlite DB thats on the sd card,also it 
+writes to usb to read live data 
+Part 3 : Flutter desktop apps, there are 2 apps, first one  where you add the db path  and you choose location and reading type and it graphs the data  also it has a manualy Sqlite query Codefield with a limit of 300 rows(becuase any higher
+freezes my pc) in the second app you select a usb port that automaticly only shows ones that are connected to an ch340k ic, you can select the master or a node the app checks for a "reading :" if the theprint sent has it it shows it in the 
+live node data Field and below the live node data field is a debug monitor that shows all prints you connect a node to debug it (or master)
+What makes my project unique -
+1 Its fully open source , This project does`nt have to be just a project people cant use or learn from
+
+-2 The sensors all have 2 common reading and those are the humidity and temperature, and this lets us compare sensor data to detect faulty sensors
+
+-3 Community driven nodes that the smart system adds to its network
+
+-4 Achieving Long Range without a Lora IC, our system uses a broadcasting esp-now interface with range up to 1.5km
+
+-5 No encryption to the sent packets and broadcast mode, this lets solo researchers and tech hobbyists check their local environment data , even build their own project around the sensor data
+
+-6 Very versatile the system is dynamic so it can read multiple kinds of data , For example someone can make one that watches water level at a nearby lake, Or someone can make a bracelet with a button to notify 
+the nearby receiver when that the person wearing the bracelet is lost this is the Reason of the EAV structure,
+
+Inspo / reference: this project is the forth version of a project i have been making since i got into tech it had a big evolution through time and with every version i try to implement what 
+i learned  
+
+Past projects: i built many hardware projects , such as MyAir it was the third version of the current project imagine it as a less accurate version of Our Air  and it would show sensor data on a lcd screen
+it was a 2 layer pcb with 2 tp4056 modules for charging and 4 18650 in parallal, MOSFET ARRAY this project was an upgraded MOSFET driver with both screw in connector or you can use pinsockets  it also had a a lot of protection
+components to insure even a beginner can use it ,ESP32 CAM Break-out Board this project had 2 versions the first version didnt work because of the emi noise and wrong i2c connections the second version was a 4 layer pcb with
+ground and power planes and corrected wiring it had a mpu6000 bme280 tp5100 bms 1s and ch340k usb to uart programmer, also thhe second and first version of Our Air where a esp32 wroom32 dht11 mq135 and a wireless display the first 
+version had a AP html webserver and the second version had a ble flutter app i also made some weekend software projects like 'biladi' an app for tourist guidance in algeria
+
+Why this is worth more than $200: Becuase pcba is very expensive and im using parts that require precision pcba like bme690 and scd41 , also shipping is quite expensive even at the cheapest option
+its almost 100$,and the Bom is literaly 80$ per node  also this project was tier 2 and i tried to log hours to get the the needed ones for the whole funding but its just too much, 
+
+ 
+rough BOM : 
+
+
+Total: 
+around 600$ without taxes
