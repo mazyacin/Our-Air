@@ -84,7 +84,7 @@ bracelet with a button to notify the nearby receiver when that the person wearin
   **TPS63802 By Ti :** a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 
   45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components
 
-  **CK340k By WCH : ** its a USB to UART programmer, in this case its used to flash the code to the MCU , and debug with the project debugger app
+  **CK340k By WCH :** its a USB to UART programmer, in this case its used to flash the code to the MCU , and debug with the project debugger app
 
   
 
