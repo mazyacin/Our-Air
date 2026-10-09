@@ -90,10 +90,9 @@ bracelet with a button to notify the nearby receiver when that the person wearin
    | Ic| Manufacturer | Description |
 | --- | --- | --- |
 | IP2312 | Injoinic | a high end charging ic set to 3A charging, whats special about it is the buck based design allowing low heat under full load |
-| TPS63802| Texas instruments  |a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 
-  45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components|
+| TPS63802| Texas instruments  |a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components|
 | CK340k| WCH |its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data , also offering debugging for both Nodes and Master| 
-| CK340k| WCH |one of the Only sensors in the World , that can truly sense CO2 in the Air| 
+| DS3231SN| Maxim Integrated |A RTC Ic (Real Time Clock ic ) used to make the timestamps of the when Sensors is received by the Master  | 
   
 
  
