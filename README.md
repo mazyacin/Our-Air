@@ -3,13 +3,14 @@
 </h1>
 
 <img width="1920" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/43afd81c-82f0-4f5c-99fa-1280d4dbfa6b" />
- <div align="center">
+<div align="center">
+
 ![KiCad](https://img.shields.io/badge/kicad-%2300578F.svg?style=for-the-badge&logo=kicad&logoColor=white) 
 ![OpenSource](https://img.shields.io/badge/Open%20Source-%232EA44F.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white) 
 ![Fusion360](https://img.shields.io/badge/Autodesk%20Fusion%20360-%230696D7.svg?style=for-the-badge&logo=autodesk&logoColor=white) 
 ![ESP32](https://img.shields.io/badge/ESP32-%23E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
 
- </div>
+</div>
 **An platform for Our Environment** : 
 ---
 
@@ -87,14 +88,6 @@ bracelet with a button to notify the nearby receiver when that the person wearin
 | SGP41| Senisiron|one of Senisiron`s latest Sensors whats special about it is its NOX sensing|
 | SCD41| Senisiron|one of the Only sensors in the World , that can truly sense CO2 in the Air| 
 
-  # Ic`s
-
-  **IP2312 :** a high end charging ic set to 3A charging, whats special about it is the buck based design allowing low heat under full load 
-
-  **TPS63802 By Ti :** a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 
-  45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components
-
-  **CK340k By WCH :** its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data , also offering debugging for both Nodes and Master
 
    | Ic| Manufacturer | Description |
 | --- | --- | --- |
