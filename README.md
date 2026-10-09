@@ -36,8 +36,10 @@ had something , that lets us do advanced research and predicting,
 
 ---
 
-And Our-Air has a **Desktop App** made to analyze the data both live and in a **sqlite db** format with **advanced environment researching tools** such as SQL query code field and professional graphs with a sleek 
-design
+And Our-Air has a **Desktop App** made to analyze the data both live and in a **sqlite db** format with **advanced environment researching tools** such as SQL query code field and professional graphs with a sleek design
+
+![Uploading Untitled.png…]()
+
 
 ---
 # But Why Our-Air :
@@ -84,7 +86,11 @@ bracelet with a button to notify the nearby receiver when that the person wearin
   **TPS63802 By Ti :** a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 
   45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components
 
-  **CK340k By WCH :** its a USB to UART programmer, in this case its used to flash the code to the MCU , and debug with the project debugger app
+  **CK340k By WCH :** its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data 
+  | Header 1 | Header 2 | Header 3 |
+| --- | --- | --- |
+| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
+| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
 
   
 
