@@ -72,7 +72,11 @@ bracelet with a button to notify the nearby receiver when that the person wearin
 
  
  # Sensors: 
- 
+   | Sensor| Manufacturer | Description |
+| --- | --- | --- |
+| Bme690 | Bosch | The bme690 is Bosch latest environment sensor , and is the worlds best general environmental sensor , it is set to Spi Mode |
+| SGP41| Senisiron|one of Senisiron`s latest Sensors whats special about it is its NOX sensing|
+| SCD41| Senisiron|one of the Only sensors in the World , that can truly sense CO2 in the Air|
  **Bme690 By Bosch** : The bme690 is Bosch latest environment sensor , and is the worlds best general environmental sensor , it is set to Spi Mode 
  
  **SGP41 By Senisiron** : one of Senisiron`s latest Sensors whats special about it is its NOX sensing
@@ -87,10 +91,7 @@ bracelet with a button to notify the nearby receiver when that the person wearin
   45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components
 
   **CK340k By WCH :** its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data 
-  | Header 1 | Header 2 | Header 3 |
-| --- | --- | --- |
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
+
 
   
 
