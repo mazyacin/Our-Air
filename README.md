@@ -76,12 +76,7 @@ bracelet with a button to notify the nearby receiver when that the person wearin
 | --- | --- | --- |
 | Bme690 | Bosch | The bme690 is Bosch latest environment sensor , and is the worlds best general environmental sensor , it is set to Spi Mode |
 | SGP41| Senisiron|one of Senisiron`s latest Sensors whats special about it is its NOX sensing|
-| SCD41| Senisiron|one of the Only sensors in the World , that can truly sense CO2 in the Air|
- **Bme690 By Bosch** : The bme690 is Bosch latest environment sensor , and is the worlds best general environmental sensor , it is set to Spi Mode 
- 
- **SGP41 By Senisiron** : one of Senisiron`s latest Sensors whats special about it is its NOX sensing
- 
- **SCD41 By Senisiron** : one of the Only sensors in the World , that can truly sense CO2 in the Air
+| SCD41| Senisiron|one of the Only sensors in the World , that can truly sense CO2 in the Air| 
 
   # Ic`s
 
@@ -90,9 +85,15 @@ bracelet with a button to notify the nearby receiver when that the person wearin
   **TPS63802 By Ti :** a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 
   45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components
 
-  **CK340k By WCH :** its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data 
+  **CK340k By WCH :** its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data , also offering debugging for both Nodes and Master
 
-
+   | Ic| Manufacturer | Description |
+| --- | --- | --- |
+| IP2312 | Injoinic | a high end charging ic set to 3A charging, whats special about it is the buck based design allowing low heat under full load |
+| TPS63802| Texas instruments  |a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 
+  45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components|
+| CK340k| WCH |its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data , also offering debugging for both Nodes and Master| 
+| CK340k| WCH |one of the Only sensors in the World , that can truly sense CO2 in the Air| 
   
 
  
