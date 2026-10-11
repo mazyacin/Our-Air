@@ -114,20 +114,19 @@ ICs:
 Pcb Specs :
 </h2>
 
-<h3 > 
- 4 Layer Design : a 4 layer based pcb design lets us minimize Emi Noise , Improve Stability and Reliability
+ **4 Layer Design** : a 4 layer based pcb design lets us minimize Emi Noise , Improve Stability and Reliability
  
- TearDrops : they Improve Reliability on the Long Run , its a must for a pcb like this that runs for long sessions
+ **TearDrops** : they Improve Reliability on the Long Run , its a must for a pcb like this that runs for long sessions
  
- Smart heat accommodated design : the Sensors are sensitive to heat so i designed it for thermal isolation 
+ **Smart heat accommodated design** : the Sensors are sensitive to heat so i designed it for thermal isolation 
  
- Stitching Vias : they were used to lower noise and help with heating 
+ **Stitching Vias** : they were used to lower noise and help with heating 
 
- fencing Vias : they are used to make sure the LongRange Stays stable
+ **fencing Vias** : they are used to make sure the LongRange Stays stable
  
- External Antenna : there is a IPX connector to connect an external Antenna
+ **External Antenna** : there is a IPX connector to connect an external Antenna
  
-</h3>
+
 
 
 <h1 align="center"> 
@@ -138,6 +137,7 @@ Casing Design :
   <h2 align="center"> 
 Features : 
 </h2>
+
    **OuterWalls** : ~125mm x 98mm 
       
    **InnerWalls** : ~120mm x 95mm
