@@ -114,7 +114,7 @@ ICs:
 Pcb Specs :
 </h2>
 
-<h3 align="center"> 
+<h3 > 
  4 Layer Design : a 4 layer based pcb design lets us minimize Emi Noise , Improve Stability and Reliability
  
  TearDrops : they Improve Reliability on the Long Run , its a must for a pcb like this that runs for long sessions
@@ -139,7 +139,7 @@ Casing Design :
 Features : 
 </h2>
 
-  <h3 align="center"> 
+  <h3 > 
    OuterWalls : ~125mm x 98mm 
    
    InnerWalls : ~120mm x 95mm
