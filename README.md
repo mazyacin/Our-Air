@@ -42,7 +42,7 @@ had something , that lets us do advanced research and predicting</h4>
 
 **Carbon Dioxide** : True sensing of the Co2 that`s  in the air we breath
 
-**RunTime** : Nodes Up to 2 years of run time on 2x18650 in a parallel configuration, and Receiver around 87h of runtime on its backup battery 
+**RunTime** : Nodes Up to 2 years of run time on 2x18650 in a parallel configuration, and Master around 87h of runtime on its backup battery 
 
 ---
 
@@ -57,11 +57,11 @@ And Our-Air has a **Desktop App** made to analyze the data both live and in a **
 But Why Our-Air : 
 </h1>
 
--1 Its **fully open source**  , This project does`nt have to stop its development   ![OpenSource](https://img.shields.io/badge/Open%20Source-%232EA44F.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white) 
+-1 Its **fully open source**  , This project does`nt have to stop its development   
 
 -2 The sensors all have 2 common reading and those are the humidity and temperature, and this lets us compare sensor data to detect faulty sensors 
 
--3 Community driven nodes that the  **smart** system adds to its **network**  ![ESP32](https://img.shields.io/badge/ESP32-%23E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
+-3 Community driven nodes that the  **smart** system adds to its **network**  
 
 -4 Achieving **Long Range** without a Lora IC, our system uses a broadcasting esp-now interface with range up to 1.5km 
 
@@ -110,6 +110,19 @@ ICs:
 | CK340k| WCH |its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data , also offering debugging for both Nodes and Master| 
 | DS3231SN| Maxim Integrated |A RTC Ic (Real Time Clock ic ) used to make the timestamps of the when Sensors is received by the Master  | 
 
+<h2 align="center"> 
+Pcb Specs :
+</h2>
+
+<h3 align="center"> 
+ 4 Layer Design : a 4 layer based pcb design lets us minimize Emi Noise , Improve Stability and Reliability
+ TearDrops : they Improve Reliability on the Long Run , its a must for a pcb like this that runs for long sessions
+ Smart heat accommodated design : the Sensors are sensitive to heat so i designed it for thermal isolation 
+ Stitching Vias : they were used to lower noise and help with heating 
+ fencing Vias : they are used to make sure the LongRange Stays stable
+ External Antenna : there is a IPX connector to connect an external Antenna
+</h3>
+
 
 <h1 align="center"> 
 Casing Design : 
@@ -117,7 +130,18 @@ Casing Design :
 <img width="2000" height="1414" alt="Node Case" src="https://github.com/user-attachments/assets/67b0cb87-1c66-420e-961a-1312b594845a" />
 
   <h2 align="center"> 
-Dimensions : 
+Features : 
 </h2>
+
+  <h3 align="center"> 
+   OuterWalls : ~125mm x 98mm 
+   InnerWalls : ~120mm x 95mm
+   Wall Thickness : 3mm
+   Closing Mechanism : Annular snap-fit with 2mm long lip and 2 vertical cuts  for easier use when closing or opening
+   Meterial : TODO
+   Breathing Vents : needed so the sensors can read the measurement of outside air
+   Ports : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna
+</h3>
+
 
  
