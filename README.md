@@ -1,6 +1,4 @@
-<h1 align="center"> 
-# Our-Air
-</h1>
+<h1 align="center">Our-Air</h1>
 
 <img width="1920" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/43afd81c-82f0-4f5c-99fa-1280d4dbfa6b" />
 <div align="center">
@@ -19,8 +17,9 @@
 **مسابقة الابتكار المدرسي الطبعة 2 الانظمة الذكية و انترنت الاشياء**
 
 **هذا المشروع مفتوح المصدر تحت رخصة GNU  و هذه الجيت هاب ريبو نسخة احتياطية في حالة تلف ملفات المسابقة المرفقة** 
-
-# The Problem :
+<h1 align="center"> 
+The Problem :
+</h1>
 
 With the overall all change with Our environment  we notice an increasing in Disasters like Air Pollution ,Wildfires
 Water Pollution, Big Chemical Accidents, and environmental emergencies , but we only act when they happen , what if we 
@@ -81,13 +80,19 @@ bracelet with a button to notify the nearby receiver when that the person wearin
  # Microcontroller : Esp32 C3 U1 N4 , Risc-V 160Mhz , 4MB of flash memory 
 
  
- # Sensors: 
+
+<h1 align="center"> 
+Sensors: 
+</h1>
    | Sensor| Manufacturer | Description |
 | --- | --- | --- |
 | Bme690 | Bosch | The bme690 is Bosch latest environment sensor , and is the worlds best general environmental sensor , it is set to Spi Mode |
 | SGP41| Senisiron|one of Senisiron`s latest Sensors whats special about it is its NOX sensing|
 | SCD41| Senisiron|one of the Only sensors in the World , that can truly sense CO2 in the Air| 
 
+<h1 align="center"> 
+ICs: 
+</h1>
 
    | Ic| Manufacturer | Description |
 | --- | --- | --- |
