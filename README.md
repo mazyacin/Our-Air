@@ -47,7 +47,7 @@ had something , that lets us do advanced research and predicting,
 
 And Our-Air has a **Desktop App** made to analyze the data both live and in a **sqlite db** format with **advanced environment researching tools** such as SQL query code field and professional graphs with a sleek design
 
-<img width="1528" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/62fc57c6-e617-4597-9323-0852acb39037" />
+<img width="1528" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/baa742f9-da8e-41ec-ba66-2d781803c172" />
 
 
 
