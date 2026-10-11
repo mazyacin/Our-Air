@@ -47,7 +47,8 @@ had something , that lets us do advanced research and predicting,
 
 And Our-Air has a **Desktop App** made to analyze the data both live and in a **sqlite db** format with **advanced environment researching tools** such as SQL query code field and professional graphs with a sleek design
 
-![Uploading Untitled.png…]()
+<img width="1528" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/62fc57c6-e617-4597-9323-0852acb39037" />
+
 
 
 ---
@@ -67,7 +68,9 @@ project around the sensor data
 -6 Very versatile the system is dynamic so it can read multiple kinds of data , For example someone can make one that watches water level at a nearby lake, Or someone can make a
 bracelet with a button to notify the nearby receiver when that the person wearing the bracelet is lost, 
 
-# Our-Air Node technical details 
+<h1 align="center"> 
+Our-Air Node technical details 
+</h1>
 
 <img width="1118" height="791" alt="image psd(21) - Copy" src="https://github.com/user-attachments/assets/48b14e6f-e57a-485a-bb67-363cc58d5ccc" />
 
@@ -75,7 +78,7 @@ bracelet with a button to notify the nearby receiver when that the person wearin
 <img width="1153" height="790" alt="image" src="https://github.com/user-attachments/assets/ef8af99f-2008-4cb0-a368-d47398fc7353" />
 
 <h1 align="center"> 
-Technical Details :  
+Rough Bom : 
 </h1>
 
 
@@ -103,6 +106,13 @@ ICs:
 | TPS63802| Texas instruments  |a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components|
 | CK340k| WCH |its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data , also offering debugging for both Nodes and Master| 
 | DS3231SN| Maxim Integrated |A RTC Ic (Real Time Clock ic ) used to make the timestamps of the when Sensors is received by the Master  | 
+
+
+<h1 align="center"> 
+Casing Design : 
+</h1>
+<img width="2000" height="1414" alt="Node Case" src="https://github.com/user-attachments/assets/67b0cb87-1c66-420e-961a-1312b594845a" />
+
   
 
  
