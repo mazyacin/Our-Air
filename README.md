@@ -116,11 +116,17 @@ Pcb Specs :
 
 <h3 align="center"> 
  4 Layer Design : a 4 layer based pcb design lets us minimize Emi Noise , Improve Stability and Reliability
+ 
  TearDrops : they Improve Reliability on the Long Run , its a must for a pcb like this that runs for long sessions
+ 
  Smart heat accommodated design : the Sensors are sensitive to heat so i designed it for thermal isolation 
+ 
  Stitching Vias : they were used to lower noise and help with heating 
+
  fencing Vias : they are used to make sure the LongRange Stays stable
+ 
  External Antenna : there is a IPX connector to connect an external Antenna
+ 
 </h3>
 
 
@@ -135,12 +141,19 @@ Features :
 
   <h3 align="center"> 
    OuterWalls : ~125mm x 98mm 
+   
    InnerWalls : ~120mm x 95mm
+   
    Wall Thickness : 3mm
+   
    Closing Mechanism : Annular snap-fit with 2mm long lip and 2 vertical cuts  for easier use when closing or opening
+   
    Meterial : TODO
+   
    Breathing Vents : needed so the sensors can read the measurement of outside air
+   
    Ports : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna
+   
 </h3>
 
 
