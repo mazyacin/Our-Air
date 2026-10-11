@@ -52,7 +52,9 @@ And Our-Air has a **Desktop App** made to analyze the data both live and in a **
 
 
 ---
-# But Why Our-Air :
+<h1 align="center"> 
+But Why Our-Air : 
+</h1>
 
 -1 Its **fully open source**  , This project does`nt have to end with me 
 
