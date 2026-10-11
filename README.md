@@ -7,10 +7,10 @@
 ![OpenSource](https://img.shields.io/badge/Open%20Source-%232EA44F.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white) 
 ![Fusion360](https://img.shields.io/badge/Autodesk%20Fusion%20360-%230696D7.svg?style=for-the-badge&logo=autodesk&logoColor=white) 
 ![ESP32](https://img.shields.io/badge/ESP32-%23E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
-
 </div>
-**An platform for Our Environment** : 
----
+
+<h2 align ="center">A platform for Our Environment:</h2> 
+
 
 التلميذ : **مزوز أحمد الامين** 
 
