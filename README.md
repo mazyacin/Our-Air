@@ -21,9 +21,10 @@
 The Problem :
 </h1>
 
-With the overall all change with Our environment  we notice an increasing in Disasters like Air Pollution ,Wildfires
+* 
+<h3 align="center"> With the overall all change with Our environment  we notice an increasing in Disasters like Air Pollution ,Wildfires
 Water Pollution, Big Chemical Accidents, and environmental emergencies , but we only act when they happen , what if we 
-had something , that lets us do advanced research and predicting,
+had something , that lets us do advanced research and predicting,</h3>
 
 
 
