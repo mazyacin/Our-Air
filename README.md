@@ -57,13 +57,13 @@ And Our-Air has a **Desktop App** made to analyze the data both live and in a **
 But Why Our-Air : 
 </h1>
 
--1 Its **fully open source**  , This project does`nt have to end with me 
+-1 Its **fully open source**  , This project does`nt have to stop its development   ![OpenSource](https://img.shields.io/badge/Open%20Source-%232EA44F.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white) 
 
 -2 The sensors all have 2 common reading and those are the humidity and temperature, and this lets us compare sensor data to detect faulty sensors 
 
--3 Community driven nodes that the  **smart** system adds to its **network** 
+-3 Community driven nodes that the  **smart** system adds to its **network**  ![ESP32](https://img.shields.io/badge/ESP32-%23E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
 
--4 Achieving **Long Range** without a Lora IC, our system uses a broadcasting esp-now interface with range up to 1.5km
+-4 Achieving **Long Range** without a Lora IC, our system uses a broadcasting esp-now interface with range up to 1.5km 
 
 -5 No encryption to the sent packets  and broadcast mode, this lets solo researchers and tech hobbyists check their local environment data , even build their own 
 project around the sensor data
