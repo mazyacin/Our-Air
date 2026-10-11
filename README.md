@@ -115,6 +115,8 @@ Casing Design :
 </h1>
 <img width="2000" height="1414" alt="Node Case" src="https://github.com/user-attachments/assets/67b0cb87-1c66-420e-961a-1312b594845a" />
 
-  
+  <h2 align="center"> 
+Dimensions : 
+</h2>
 
  
