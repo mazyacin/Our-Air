@@ -152,7 +152,7 @@ Features :
    
    Breathing Vents : needed so the sensors can read the measurement of outside air
    
-   Ports : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna
+   Ports : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna(~7mm x ~15mm)
    
 </h3>
 
