@@ -138,30 +138,20 @@ Casing Design :
   <h2 align="center"> 
 Features : 
 </h2>
+   **OuterWalls** : ~125mm x 98mm 
+      
+   **InnerWalls** : ~120mm x 95mm
+     
+  **Wall Thickness** : 3mm
+      
+   **Closing Mechanism** : Annular snap-fit with 2mm long lip and 2 vertical cuts  for easier use when closing or opening
+      
+   **Meterial** : TODO
+      
+   **Breathing Vents** : needed so the sensors can read the measurement of outside air
+   
+   **Ports** : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna(~7mm x ~15mm)
 
-  <h3 > 
-   OuterWalls : ~125mm x 98mm 
-   
-   
-   InnerWalls : ~120mm x 95mm
-   
-   
-   Wall Thickness : 3mm
-   
-   
-   Closing Mechanism : Annular snap-fit with 2mm long lip and 2 vertical cuts  for easier use when closing or opening
-   
-   
-   Meterial : TODO
-   
-   
-   Breathing Vents : needed so the sensors can read the measurement of outside air
-   
-   
-   Ports : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna(~7mm x ~15mm)
-   
-   
-</h3>
 
 
  
