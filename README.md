@@ -74,25 +74,28 @@ bracelet with a button to notify the nearby receiver when that the person wearin
 **The Pcb :** 
 <img width="1153" height="790" alt="image" src="https://github.com/user-attachments/assets/ef8af99f-2008-4cb0-a368-d47398fc7353" />
 
-# Technical details :
+<h1 align="center"> 
+Technical Details :  
+</h1>
 
 
- # Microcontroller : Esp32 C3 U1 N4 , Risc-V 160Mhz , 4MB of flash memory 
+ **Microcontroller : Esp32 C3 U1 N4 , Risc-V 160Mhz , 4MB of flash memory** 
 
  
 
-<h1 align="center"> 
+<h2 align="center"> 
 Sensors: 
-</h1>
+</h2>
+
    | Sensor| Manufacturer | Description |
 | --- | --- | --- |
 | Bme690 | Bosch | The bme690 is Bosch latest environment sensor , and is the worlds best general environmental sensor , it is set to Spi Mode |
 | SGP41| Senisiron|one of Senisiron`s latest Sensors whats special about it is its NOX sensing|
 | SCD41| Senisiron|one of the Only sensors in the World , that can truly sense CO2 in the Air| 
 
-<h1 align="center"> 
+<h2 align="center"> 
 ICs: 
-</h1>
+</h2>
 
    | Ic| Manufacturer | Description |
 | --- | --- | --- |
