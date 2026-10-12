@@ -202,7 +202,8 @@ Pcb Specs :
 <h1 align="center"> 
 Casing Design : 
 </h1>
-<img width="2000" height="1414" alt="Node Case" src="https://github.com/user-attachments/assets/67b0cb87-1c66-420e-961a-1312b594845a" />
+<img width="2000" height="1414" alt="Master Case" src="https://github.com/user-attachments/assets/853ea033-b1f5-429c-a319-2ee3f2b41159" />
+
 
   <h2 align="center"> 
 Features : 
