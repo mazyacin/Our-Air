@@ -171,6 +171,7 @@ Rough Bom :
 
 
  **Microcontroller : Esp32 C3 U1 N4 , Risc-V 160Mhz , 4MB of flash memory** 
+ **SD Card (8gb)
 
 ICs: 
 </h2>
