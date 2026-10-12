@@ -1,4 +1,4 @@
-<h1 align="center">Our-Air</h1>
+<img width="1160" height="818" alt="image" src="https://github.com/user-attachments/assets/0eb85a44-d23f-47a4-a884-d826300d924a" /><h1 align="center">Our-Air</h1>
 
 <img width="1920" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/43afd81c-82f0-4f5c-99fa-1280d4dbfa6b" />
 <div align="center">
@@ -77,8 +77,12 @@ Our-Air Node technical details
 
 <img width="1118" height="791" alt="image psd(21) - Copy" src="https://github.com/user-attachments/assets/48b14e6f-e57a-485a-bb67-363cc58d5ccc" />
 
-**The Pcb :** 
-<img width="1153" height="790" alt="image" src="https://github.com/user-attachments/assets/ef8af99f-2008-4cb0-a368-d47398fc7353" />
+<h2 align="center"> 
+Schematic : 
+</h2>
+<img width="1138" height="779" alt="image" src="https://github.com/user-attachments/assets/2a46128f-b2b2-41e9-9b92-9849e538df58" />
+
+
 
 <h1 align="center"> 
 Rough Bom : 
@@ -108,7 +112,7 @@ ICs:
 | IP2312 | Injoinic | a high end charging ic set to 3A charging, whats special about it is the buck based design allowing low heat under full load |
 | TPS63802| Texas instruments  |a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components|
 | CK340k| WCH |its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data , also offering debugging for both Nodes and Master| 
-| DS3231SN| Maxim Integrated |A RTC Ic (Real Time Clock ic ) used to make the timestamps of the when Sensors is received by the Master  | 
+
 
 <h2 align="center"> 
 Pcb Specs :
@@ -151,6 +155,74 @@ Features :
    **Breathing Vents** : needed so the sensors can read the measurement of outside air
    
    **Ports** : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna(~7mm x ~15mm)
+
+   <h1 align="center"> 
+Our-Air Master technical details 
+</h1>
+<img width="1224" height="852" alt="image psd(20) - Copy" src="https://github.com/user-attachments/assets/c558ff3f-5820-443a-b2dc-36575c1bcf7e" />
+<h2 align="center"> 
+Schematic : 
+</h2>
+<img width="1160" height="818" alt="image" src="https://github.com/user-attachments/assets/68b839c4-8cf5-40aa-8aff-7454c5029f13" />
+
+<h1 align="center"> 
+Rough Bom : 
+</h1>
+
+
+ **Microcontroller : Esp32 C3 U1 N4 , Risc-V 160Mhz , 4MB of flash memory** 
+
+ICs: 
+</h2>
+
+   | Ic| Manufacturer | Description |
+| --- | --- | --- |
+| IP2312 | Injoinic | a high end charging ic set to 3A charging, whats special about it is the buck based design allowing low heat under full load |
+| TPS63802| Texas instruments  |a high efficiency Buck and Boost ic with a Input voltage of 1.2v to 5.5v and Output of 3.3v , its efficiency is 95% , at full load it reaches 45°C which prevents burnouts, and its design lets use an 18650 directly , in the pcb its  used to power the components|
+| CK340k| WCH |its a USB to UART programmer, in this case its used to flash the code to the MCU , and view live data , also offering debugging for both Nodes and Master| 
+| DS3231SN| Maxim Integrated |A RTC Ic (Real Time Clock ic ) used to make the timestamps of the when Sensors is received by the Master  | 
+
+<h2 align="center"> 
+Pcb Specs :
+</h2>
+
+ **4 Layer Design** : a 4 layer based pcb design lets us minimize Emi Noise , Improve Stability and Reliability
+ 
+ **TearDrops** : they Improve Reliability on the Long Run , its a must for a pcb like this that runs for long sessions
+ 
+ **Stitching Vias** : they were used to lower noise and help with heating 
+
+ **fencing Vias** : they are used to make sure the LongRange Stays stable
+ 
+ **External Antenna** : there is a IPX connector to connect an external Antenna
+ 
+
+
+
+<h1 align="center"> 
+Casing Design : 
+</h1>
+<img width="2000" height="1414" alt="Node Case" src="https://github.com/user-attachments/assets/67b0cb87-1c66-420e-961a-1312b594845a" />
+
+  <h2 align="center"> 
+Features : 
+</h2>
+
+   **OuterWalls** : ~168mm x 107mm 
+      
+   **InnerWalls** : ~160mm x 100mm
+     
+  **Wall Thickness** : 3mm
+      
+   **Closing Mechanism** : Annular snap-fit with 2mm long lip and 2 vertical cuts  for easier use when closing or opening
+      
+   **Meterial** : TODO
+   
+   **Ports** : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna(~7mm x ~15mm) and Sd card ( ~60mm x 16mm) the holes for the sd card and external antenna are merged
+   
+
+
+
 
 
 
