@@ -1,4 +1,4 @@
-<img width="1160" height="818" alt="image" src="https://github.com/user-attachments/assets/0eb85a44-d23f-47a4-a884-d826300d924a" /><h1 align="center">Our-Air</h1>
+<h1 align="center">Our-Air</h1>
 
 <img width="1920" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/43afd81c-82f0-4f5c-99fa-1280d4dbfa6b" />
 <div align="center">
