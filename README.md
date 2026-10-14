@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/76a6b691-314e-4682-a79f-fa545415f097" alt="image psd" style="width: 120%;">
+  <img src="https://github.com/user-attachments/assets/76a6b691-314e-4682-a79f-fa545415f097" alt="image psd" style="width: 80%;">
 </div>
 
 <h1 align="center">Our-Air</h1>
