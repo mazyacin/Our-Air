@@ -57,7 +57,9 @@ And Our-Air has a **Desktop App** made to analyze the data both live and in a **
 
 <img width="1528" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/baa742f9-da8e-41ec-ba66-2d781803c172" />
 <div align="center">
-![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=Dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Desktop-4A154B?style=for-the-badge&logo=desktop&logoColor=white" alt="Desktop" />
 </div>
 
 
