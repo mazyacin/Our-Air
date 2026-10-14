@@ -1,7 +1,8 @@
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/76a6b691-314e-4682-a79f-fa545415f097" alt="image psd" style="width: 80%;">
+  <img src="https://github.com/user-attachments/assets/8586c6fd-3f75-4e56-ac96-6804116b456b" alt="image psd" style="width: 80%;">
 </div>
 <div align="center">
+
 
 ![KiCad](https://img.shields.io/badge/kicad-%2300578F.svg?style=for-the-badge&logo=kicad&logoColor=white) 
 ![OpenSource](https://img.shields.io/badge/Open%20Source-%232EA44F.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white) 
