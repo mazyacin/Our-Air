@@ -256,12 +256,13 @@ Features :
 <h1 align="center">
 Flashing The Software
 </h1>
-<h2 align="center">
+<h3 align="center">
 Master / Node: Flashing the Software is The Same For The Node or Master 
  -1 Make sure you Have ch340x drivers installed (or Arduino ide since it comes packaged with It)
  -2 Download the .ino Sketches 
  -3 Make Sure you have these libraries installed : 
   For the Master .ino: 
+  
 <SPI.h>,<WiFi.h>,<esp_now.h>
 <Wire.h>, <sqlite3.h>,<FS.h>
 <SD.h>,<RTClib.h> ,<ArduinoJson.h>
@@ -273,7 +274,7 @@ Master / Node: Flashing the Software is The Same For The Node or Master
 <SensirionI2cScd4x.h>, <SPI.h>, <WiFi.h>
 <esp_now.h>, <ArduinoJson.h>, <esp_wifi.h>
   
-</h2>
+</h3>
 
 
 
