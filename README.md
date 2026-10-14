@@ -278,6 +278,14 @@ Master / Node:
 <Wire.h>, <7semi_BME690.h>, <Adafruit_SGP41.h>
 <SensirionI2cScd4x.h>, <SPI.h>, <WiFi.h>
 <esp_now.h>, <ArduinoJson.h>, <esp_wifi.h>
+
+ **-4** Open Arduino Ide (platformIo and esp-idf are not supported) and load the .ino , in the "**file**" button
+
+ **-5** plug in Node/Master through the top usb c port (lower ones are for 3A charging only )
+
+ **-6** select the Node/Master from the COM selection button at the top 
+
+ **-7** Click Upload ( this might Take Some time) 
   
 
 
