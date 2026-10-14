@@ -56,6 +56,9 @@ had something , that lets us do advanced research and predicting</h4>
 And Our-Air has a **Desktop App** made to analyze the data both live and in a **sqlite db** format with **advanced environment researching tools** such as SQL query code field and professional graphs with a sleek design
 
 <img width="1528" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/baa742f9-da8e-41ec-ba66-2d781803c172" />
+<div align="center">
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+</div>
 
 
 
