@@ -256,25 +256,26 @@ Features :
 <h1 align="center">
 Flashing The Software
 </h1>
-<h3 >
-Master / Node: Flashing the Software is The Same For The Node or Master 
- -1 Make sure you Have ch340x drivers installed (or Arduino ide since it comes packaged with It)
- -2 Download the .ino Sketches 
- -3 Make Sure you have these libraries installed : 
-  For the Master .ino: 
+
+Master / Node: 
+**Flashing the Software is The Same For The Node or Master**  :  
+ **-1** Make sure you Have ch340x drivers installed (or Arduino ide since it comes packaged with It)
+ **-2** Download the .ino Sketches 
+ **-3** Make Sure you have these libraries installed : 
+  **For the Master .ino**: 
   
 <SPI.h>,<WiFi.h>,<esp_now.h>
 <Wire.h>, <sqlite3.h>,<FS.h>
 <SD.h>,<RTClib.h> ,<ArduinoJson.h>
 <queue>,<esp_wifi.h>,<vector>
 
- For the Node .ino : 
+ **For the Node .ino** : 
  
 <Wire.h>, <7semi_BME690.h>, <Adafruit_SGP41.h>
 <SensirionI2cScd4x.h>, <SPI.h>, <WiFi.h>
 <esp_now.h>, <ArduinoJson.h>, <esp_wifi.h>
   
-</h3>
+
 
 
 
