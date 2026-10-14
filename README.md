@@ -17,6 +17,8 @@
 
 
 <img width="1920" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/43afd81c-82f0-4f5c-99fa-1280d4dbfa6b" />
+
+
 التلميذ : **مزوز أحمد الامين** 
 
 **مسابقة الابتكار المدرسي الطبعة 2 الانظمة الذكية و انترنت الاشياء**
