@@ -1,10 +1,6 @@
 <div align="center">
   <img src="https://github.com/user-attachments/assets/76a6b691-314e-4682-a79f-fa545415f097" alt="image psd" style="width: 80%;">
 </div>
-
-<h1 align="center">Our-Air</h1>
-
-<img width="1920" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/43afd81c-82f0-4f5c-99fa-1280d4dbfa6b" />
 <div align="center">
 
 ![KiCad](https://img.shields.io/badge/kicad-%2300578F.svg?style=for-the-badge&logo=kicad&logoColor=white) 
@@ -13,9 +9,13 @@
 ![ESP32](https://img.shields.io/badge/ESP32-%23E7352C.svg?style=for-the-badge&logo=espressif&logoColor=white)
 </div>
 
+<h1 align="center">Our-Air</h1>
+
+
 <h2 align ="center">A platform for Our Environment:</h2> 
 
 
+<img width="1920" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/43afd81c-82f0-4f5c-99fa-1280d4dbfa6b" />
 التلميذ : **مزوز أحمد الامين** 
 
 **مسابقة الابتكار المدرسي الطبعة 2 الانظمة الذكية و انترنت الاشياء**
