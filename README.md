@@ -250,8 +250,8 @@ Features :
    **Ports** : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna(~7mm x ~15mm) and Sd card ( ~60mm x 16mm) the holes for the sd card and external antenna are merged
 
 <div align="center">
+   <img src="https://img.shields.io/badge/Flashing-%23FF6F00.svg?style=for-the-badge&logo=flashrom&logoColor=white" alt="Flashing" />
   <img src="https://img.shields.io/badge/Software-%23121011.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="Software" />
-  <img src="https://img.shields.io/badge/Flashing-%23FF6F00.svg?style=for-the-badge&logo=flashrom&logoColor=white" alt="Flashing" />
 </div>
 <h1 align="center">
 Flashing The Software
