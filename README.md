@@ -256,7 +256,7 @@ Features :
 <h1 align="center">
 Flashing The Software
 </h1>
-<h3 align="center">
+<h3 >
 Master / Node: Flashing the Software is The Same For The Node or Master 
  -1 Make sure you Have ch340x drivers installed (or Arduino ide since it comes packaged with It)
  -2 Download the .ino Sketches 
