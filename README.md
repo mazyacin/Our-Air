@@ -261,10 +261,15 @@ An Our-Air node can last up to a whole year thanks to deepsleep and low power se
 
  Deepsleep and Lightsleep timers are 15 minutes for the Deepsleep and 10 seconds for the Lightsleep
 
-after waking up from deepsleep it checked for the reason of waking up this allows us to use the debugger with the nodes where when rx is low the rtc wakes up the  mcu,if the reason is the timer ended it initiates the sensors then goes to light sleep 
+after waking up from deepsleep 
+
+it checked for the reason of waking up this allows us to use the debugger with the nodes where when rx is low the rtc wakes up the  mcu,if the reason is the timer ended it initiates the sensors then goes to light sleep 
+
 after light sleep it reads the sensors and makes a json packet then sends it with espnow set to broadcast mode and long range on and the send strength to 80(max)
+
 it sends 3 times to prevent data loss 
 then goes back to sleep
+
 it had an average power consumption of 1.1mAh per hour
 
 </h2>
