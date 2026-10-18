@@ -249,6 +249,44 @@ Features :
    
    **Ports** : there are spaces for the 2 USB C receptacles (35mm x ~4mm)and the external antenna(~7mm x ~15mm) and Sd card ( ~60mm x 16mm) the holes for the sd card and external antenna are merged
 
+
+<h1 align="center">
+Node Logic  :
+</h1>
+Node sw image
+
+
+<h2 >
+An Our-Air node can last up to a whole year thanks to deepsleep and low power sensors and the explanation of the logic is as of the following:
+
+ Deepsleep and Lightsleep timers are 15 minutes for the Deepsleep and 10 seconds for the Lightsleep
+
+after waking up from deepsleep it checked for the reason of waking up this allows us to use the debugger with the nodes where when rx is low the rtc wakes up the  mcu,if the reason is the timer ended it initiates the sensors then goes to light sleep 
+after light sleep it reads the sensors and makes a json packet then sends it with espnow set to broadcast mode and long range on and the send strength to 80(max)
+it sends 3 times to prevent data loss 
+then goes back to sleep
+it had an average power consumption of 1.1mAh per hour
+
+</h2>
+<h1 align="center">
+Master Logic  :
+</h1>
+Master sw image
+
+
+<h2 >
+The Master can last almost 3 days on its backup battery,with automatic power switching from main source to backup and the explanation of the logic is as of the following:
+
+the Master actively scans for espnow packets in Lr mode (Long Range) and deserialises it with json 
+
+then checks if its mac address is in the blacklist
+
+if yes it ignores the packet
+
+if no it parses and adds a time stamp using the rtc ic it into a queue then a function that writes it into an Entity Attributed Value sqlite database on an sd card 
+</h2>
+
+
 <div align="center">
    <img src="https://img.shields.io/badge/Flashing-%23FF6F00.svg?style=for-the-badge&logo=flashrom&logoColor=white" alt="Flashing" />
   <img src="https://img.shields.io/badge/Software-%23121011.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="Software" />
@@ -285,7 +323,8 @@ Master / Node:
 
  **-6** select the Node/Master from the COM selection button at the top 
 
- **-7** Click Upload ( this might Take Some time) 
+ **-7** Click Upload ( this might Take Some time)  
+
   
 
 
