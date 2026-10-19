@@ -256,7 +256,7 @@ Node Logic  :
 Node sw image
 
 
-<h2 >
+<h3 >
 An Our-Air node can last up to a whole year thanks to deepsleep and low power sensors and the explanation of the logic is as of the following:
 
  Deepsleep and Lightsleep timers are 15 minutes for the Deepsleep and 10 seconds for the Lightsleep
@@ -272,14 +272,14 @@ then goes back to sleep
 
 it had an average power consumption of 1.1mAh per hour
 
-</h2>
+</h3>
 <h1 align="center">
 Master Logic  :
 </h1>
 Master sw image
 
 
-<h2 >
+<h3>
 The Master can last almost 3 days on its backup battery,with automatic power switching from main source to backup and the explanation of the logic is as of the following:
 
 the Master actively scans for espnow packets in Lr mode (Long Range) and deserialises it with json 
@@ -289,7 +289,7 @@ then checks if its mac address is in the blacklist
 if yes it ignores the packet
 
 if no it parses and adds a time stamp using the rtc ic it into a queue then a function that writes it into an Entity Attributed Value sqlite database on an sd card 
-</h2>
+</h3>
 
 
 <div align="center">
