@@ -277,7 +277,8 @@ it had an average power consumption of 1.1mAh per hour
 <h1 align="center">
 Master Logic  :
 </h1>
-Master sw image
+<img width="2000" height="1414" alt="Master Software" src="https://github.com/user-attachments/assets/cc4b0673-5980-478a-999f-cff04f480f9c" />
+
 
 
 <h3>
