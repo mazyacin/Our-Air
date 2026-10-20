@@ -253,7 +253,8 @@ Features :
 <h1 align="center">
 Node Logic  :
 </h1>
-Node sw image
+<img width="2000" height="1414" alt="Node Software(1)" src="https://github.com/user-attachments/assets/915287a0-2c13-4455-9666-2c7b8185661e" />
+
 
 
 <h3 >
@@ -291,8 +292,7 @@ if yes it ignores the packet
 if no it parses and adds a time stamp using the rtc ic it into a queue then a function that writes it into an Entity Attributed Value sqlite database on an sd card 
 </h3>
 <div align="center">
-   <img src="https://img.shields.io/badge/Flashing-%23FF6F00.svg?style=for-the-badge&logo=flashrom&logoColor=white" alt="Flashing" />
-  <img src="https://img.shields.io/badge/Software-%23121011.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="Software" />
+  <img src="https://img.shields.io/badge/APP-%23121011.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="APP" /> 
 </div>
 <h1>
 The Database viewer App :
@@ -301,13 +301,13 @@ The Database viewer App :
 It has 2 Parts :
 </h2>
 
-<h2>
+<h3>
 -1 A tool that turns the database into Graphs to detect spikes it has 2 buttons one to select location and the other to select reading type (what reading you want to graph) then it makes a graph with zoom in and out and a slider to be able to see all of the graph 
 
 -2 An SQL manual query code box for advanced research with a console to show errors and output then a table to see the query result 
 
 right now it is limited to 300 rows max
-</h2>
+</h3>
 <h1>
 The Live viewer App :
 </h1>
@@ -315,7 +315,7 @@ The Live viewer App :
 It has 3 Parts :
 </h2>
 
-<h2>
+<h3>
 -1 A box shows live readings taken from the master through USB and updates automatically, also there is a button to select a usb port
 
 -2 it is used to flash location and blacklist into the master and node,it automatically detectes if the plugged in is thr master or node,
@@ -328,7 +328,7 @@ if node is connected you get a textfield
 you write in the location you want to flash to the node to assign a location to it and it shows up in the database 
  
 -3 a debug table that helps with debugging a broken node or master that shows debug prints 
-</h2>
+</h3>
 
 <div align="center">
    <img src="https://img.shields.io/badge/Flashing-%23FF6F00.svg?style=for-the-badge&logo=flashrom&logoColor=white" alt="Flashing" />
