@@ -309,7 +309,9 @@ It has 2 Parts :
 <h3>
 -1 A tool that turns the database into Graphs to detect spikes it has 2 buttons one to select location and the other to select reading type (what reading you want to graph) then it makes a graph with zoom in and out and a slider to be able to see all of the graph 
 
+
 -2 An SQL manual query code box for advanced research with a console to show errors and output then a table to see the query result 
+
 
 right now it is limited to 300 rows max
 </h3>
@@ -325,11 +327,15 @@ It has 3 Parts :
 <h3>
 -1 A box shows live readings taken from the master through USB and updates automatically, also there is a button to select a usb port
 
+
 -2 it is used to flash location and blacklist into the master and node,it automatically detectes if the plugged in is thr master or node,
+
 
 if master is connected you get a text field to write MAC address of a node you want to blacklist to sent you click enter 
 
+
 also there is a reflash blacklist, the app saves a copy of thr blacklist and if the master lost its blacklist you can reflash it whole
+
 
 if node is connected you get a textfield
 you write in the location you want to flash to the node to assign a location to it and it shows up in the database 
