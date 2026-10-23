@@ -300,8 +300,7 @@ if no it parses and adds a time stamp using the rtc ic it into a queue then a fu
 <h1>
 The Database viewer App :
 </h1>
-
-
+<img width="1528" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/baa742f9-da8e-41ec-ba66-2d781803c172" />
 
 <h2>
 It has 2 Parts :
