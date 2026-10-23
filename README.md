@@ -300,7 +300,8 @@ if no it parses and adds a time stamp using the rtc ic it into a queue then a fu
 <h1>
 The Database viewer App :
 </h1>
-<img width="1528" height="1080" alt="msmn(1)" src="https://github.com/user-attachments/assets/6a4d4d4a-15c2-4a91-b636-f26a84ecf7b2" />
+
+
 
 <h2>
 It has 2 Parts :
@@ -316,7 +317,7 @@ right now it is limited to 300 rows max
 <h1>
 The Live viewer App :
 </h1>
-<img width="1528" height="1080" alt="msmn" src="https://github.com/user-attachments/assets/017e142f-da96-4dc6-b921-77e5c50bbdef" />
+<img width="1528" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/baa742f9-da8e-41ec-ba66-2d781803c172" />
 
 <h2>
 It has 3 Parts :
