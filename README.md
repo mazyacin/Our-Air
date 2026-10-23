@@ -295,9 +295,12 @@ if no it parses and adds a time stamp using the rtc ic it into a queue then a fu
 <div align="center">
   <img src="https://img.shields.io/badge/APP-%23121011.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="APP" /> 
 </div>
+
+
 <h1>
 The Database viewer App :
 </h1>
+<img width="1528" height="1080" alt="Untitled" src="https://github.com/user-attachments/assets/baa742f9-da8e-41ec-ba66-2d781803c172" />
 <h2>
 It has 2 Parts :
 </h2>
@@ -312,6 +315,8 @@ right now it is limited to 300 rows max
 <h1>
 The Live viewer App :
 </h1>
+<img width="1528" height="1080" alt="msmn" src="https://github.com/user-attachments/assets/017e142f-da96-4dc6-b921-77e5c50bbdef" />
+
 <h2>
 It has 3 Parts :
 </h2>
