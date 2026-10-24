@@ -49,7 +49,8 @@ had something , that lets us do advanced research and predicting</h4>
 
 **Carbon Dioxide** : True sensing of the Co2 that`s  in the air we breath
 
-**RunTime** : Nodes Up to 2 years of run time on 2x18650 in a parallel configuration, and Master around 87h of runtime on its backup battery 
+**RunTime** : Nodes Up to 1.2 years of run time on 2x18650 in a parallel configuration, and Master around 87h of runtime on its backup battery 
+with automatic Power Switching
 
 ---
 
@@ -77,11 +78,11 @@ But Why Our-Air :
 
 -4 Achieving **Long Range** without a Lora IC, our system uses a broadcasting esp-now interface with range up to 1.5km 
 
--5 No encryption to the sent packets  and broadcast mode, this lets solo researchers and tech hobbyists check their local environment data , even build their own 
-project around the sensor data
+-5 No encryption to the sent packets  and broadcast mode, this lets solo researchers and tech hobbyists check their local environment data , even build their own project around the sensor data
 
--6 Very versatile the system is dynamic so it can read multiple kinds of data , For example someone can make one that watches water level at a nearby lake, Or someone can make a
-bracelet with a button to notify the nearby receiver when that the person wearing the bracelet is lost, 
+-6 Very versatile the system is dynamic so it can read multiple kinds of data , For example someone can make one that watches water level at a nearby lake,
+
+Or someone can make a bracelet with a button to notify the nearby receiver when that the person wearing the bracelet is lost, 
 
 <h1 align="center"> 
 Our-Air Node technical details 
