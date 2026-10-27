@@ -93,7 +93,8 @@ Our-Air Node technical details
 <h2 align="center"> 
 Schematic : 
 </h2>
-<img width="1138" height="779" alt="image" src="https://github.com/user-attachments/assets/2a46128f-b2b2-41e9-9b92-9849e538df58" />
+<img width="1070" height="750" alt="image" src="https://github.com/user-attachments/assets/eab3db23-419e-413f-8431-0a43451b45be" />
+
 <div align="center">
   <img src="https://img.shields.io/badge/Schematic-%23E34F26.svg?style=for-the-badge&logo=cisco&logoColor=white" alt="Schematic" />
 </div>
@@ -183,7 +184,8 @@ Our-Air Master technical details
 <h2 align="center"> 
 Schematic : 
 </h2>
-<img width="1160" height="818" alt="image" src="https://github.com/user-attachments/assets/68b839c4-8cf5-40aa-8aff-7454c5029f13" />
+<img width="1150" height="815" alt="image" src="https://github.com/user-attachments/assets/938862da-516d-4ae6-8c25-131ff6227cd6" />
+
 
 <div align="center">
   <img src="https://img.shields.io/badge/Schematic-%23E34F26.svg?style=for-the-badge&logo=cisco&logoColor=white" alt="Schematic" />
