@@ -21,7 +21,6 @@ jobs:
 
       - name: Add Windows Desktop Support
         run: flutter create . --platforms=windows
-        working-directory: flutterbuild
 
       - name: Install dependencies
         run: flutter pub get
