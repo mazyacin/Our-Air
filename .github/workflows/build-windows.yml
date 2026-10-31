@@ -21,14 +21,12 @@ jobs:
 
       - name: Install dependencies
         run: flutter pub get
-        working-directory: untitled1  # Fixed: removed './'
 
       - name: Build Windows Release
         run: flutter build windows --release
-        working-directory: untitled1  # Fixed: removed './'
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
         with:
           name: windows-executable
-          path: untitled1/build/windows/x64/runner/Release/
+          path: build/windows/x64/runner/Release/
