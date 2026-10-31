@@ -20,7 +20,8 @@ jobs:
           cache: true
 
       - name: Add Windows Desktop Support
-        run: flutter create . --platforms=windows
+        run: flutter create . --platforms=windows --project-name our_air
+        working-directory: flutterbuild
 
       - name: Install dependencies
         run: flutter pub get
