@@ -19,6 +19,12 @@ jobs:
           channel: 'stable'
           cache: true
 
+      - name: Clean Old Platform Files
+        run: |
+          Remove-Item -Recurse -Force windows -ErrorAction SilentlyContinue
+          Remove-Item -Recurse -Force build -ErrorAction SilentlyContinue
+        working-directory: flutterbuild
+
       - name: Add Windows Desktop Support
         run: flutter create . --platforms=windows --project-name our_air
         working-directory: flutterbuild
