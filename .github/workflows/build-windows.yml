@@ -21,11 +21,11 @@ jobs:
 
       - name: Install dependencies
         run: flutter pub get
-        working-directory: ./untitled1
+        working-directory: untitled1  # Fixed: removed './'
 
       - name: Build Windows Release
         run: flutter build windows --release
-        working-directory: ./untitled1
+        working-directory: untitled1  # Fixed: removed './'
 
       - name: Archive production artifacts
         uses: actions/upload-artifact@v4
