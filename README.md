@@ -346,7 +346,19 @@ you write in the location you want to flash to the node to assign a location to 
  
 -3 a debug table that helps with debugging a broken node or master that shows debug prints 
 </h3>
-
+<h1>
+  Installing the Apps :
+</h1>
+<h3>
+  To install the Apps you Have 2 Options : 
+</h3>
+<h4>
+  -1 Directly download the .exe from the Release "Desktop Apps executables" (the Apps have only been tested on windows 10 ) 
+   and put the shortcut on your desktop , if the shortcut doesnt show the App Icon, right click it and select "properties" then "change      icon"then "browse" then select the .ico file found in the folder of the app
+  
+  -2 From the source Files , you can download them in the "Apps Code" folder or you can download the Release "Flutter OpenSource Files" 
+   after you install them you put them in you put them in a flutter project folder , and you run "flutter pub get " and then you can compile or run it through the IDE (you need visual studio 2022 with "Desktop development with C++" workload installed )
+</h4>
 <div align="center">
    <img src="https://img.shields.io/badge/Flashing-%23FF6F00.svg?style=for-the-badge&logo=flashrom&logoColor=white" alt="Flashing" />
   <img src="https://img.shields.io/badge/Software-%23121011.svg?style=for-the-badge&logo=gnu&logoColor=white" alt="Software" />
